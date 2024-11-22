@@ -38,8 +38,8 @@ export function MainSlider({ images }: { images: SliderProps }) {
         ))}
       </CarouselContent>
 
-      <div className="relative">
-        <CarouselNext className="absolute top-1/2 right-4 transform -translate-y-1/2 z-10">
+      <div>
+        <CarouselNext>
           <Button className="bg-white rounded-full shadow-md">&gt;</Button>
         </CarouselNext>
       </div>

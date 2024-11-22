@@ -139,7 +139,7 @@ export default function Navbar() {
       </nav>
       <main className="mt-10">
         <section>
-          <Card className="mx-auto max-w-[1120px] px-4 sm:px-0 relative hidden md:block rounded-3xl overflow-hidden p-8 bg-[url('/assets/images/tattoo-removal/hero-1.jpg')] bg-cover bg-center h-96">
+          <Card className="mx-auto max-w-[1120px] px-4 sm:px-5 relative hidden md:block rounded-3xl overflow-hidden p-8 bg-[url('/assets/images/tattoo-removal/hero-1.jpg')] bg-cover bg-center h-96">
             <div className="flex flex-col md:flex-row md:space-x-8 p-8 rounded-lg">
               <div className="text-white md:w-1/2 space-y-4">
                 <h2 className="font-sans text-3xl font-bold leading-snug">
@@ -179,7 +179,7 @@ export default function Navbar() {
             </p>
           </div>
 
-          <div className="md:hidden text-center mt-4">
+          <div className="md:hidden text-center mt-4 pb-10">
             <Button className="bg-primaryOrange hover:bg-primaryOrange/90 text-white font-bold rounded-full px-6 py-3">
               Hemen Randevu Alın
             </Button>

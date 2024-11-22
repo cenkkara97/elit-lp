@@ -51,7 +51,7 @@ export default function Footer() {
         <div className="w-full md:w-auto mt-6 md:mt-0">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5105.115156769951!2d28.985633355947904!3d41.10315295808738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7605d3b0973%3A0xf5d2f0479d4dda41!2sElithair%20Transplant!5e0!3m2!1str!2str!4v1720685370812!5m2!1str!2str"
-            className="w-auto md:w-[500px] h-[400px] border-0"
+            className="w-auto md:w-[500px] h-[400px] border-0 rounded-xl"
             allowFullScreen
             loading="lazy"
           ></iframe>
